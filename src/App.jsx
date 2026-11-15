@@ -1,3 +1,4 @@
+import { useScrollReveal } from "./hooks/useScrollReveal";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -9,6 +10,8 @@ import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 
 function App() {
+  useScrollReveal();
+
   return (
     <div className="app-wrapper">
       <Navbar />

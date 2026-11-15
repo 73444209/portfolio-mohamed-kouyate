@@ -2,14 +2,14 @@ function VisualPortfolio() {
   return (
     <section id="portfolio-visuel" className="visual-section">
       <div className="section-container">
-        <div className="section-header">
+        <div className="section-header reveal reveal-fade-up">
           <span className="section-subtitle">Communication Corporate & Contenu de Marque</span>
           <h2 className="section-title">Portfolio visuel & Campagnes</h2>
         </div>
 
-        <div className="visual-grid">
+        <div className="visual-grid" data-stagger-group>
           {/* CARTE 1 : Stratégie d'Acquisition & Inbound Marketing (YouTube) */}
-          <div className="visual-card">
+          <div className="visual-card reveal reveal-zoom-in">
             <div className="video-responsive">
               <iframe
                 src="https://www.youtube.com/embed/pLwTboNaJy0"
@@ -30,7 +30,7 @@ function VisualPortfolio() {
           </div>
 
           {/* CARTE 2 : Campagne Publicitaire Glob Access (Lecteur LinkedIn intégré) */}
-          <div className="visual-card">
+          <div className="visual-card reveal reveal-zoom-in">
             <div className="video-responsive">
               <iframe
                 src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7523679052680032256?compact=1"
@@ -50,7 +50,7 @@ function VisualPortfolio() {
           </div>
 
           {/* CARTE 3 : Étude de Cas & Écosystème Digital B2B */}
-          <div className="visual-card">
+          <div className="visual-card reveal reveal-zoom-in">
             <div className="campaign-banner campaign-banner-secondary">
               <div className="campaign-banner-overlay">
                 <span className="campaign-platform">Étude de Cas · Direction Marketing</span>

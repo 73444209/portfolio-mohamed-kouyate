@@ -1786,4 +1786,77 @@ section {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+}/* =========================================================
+   SYSTÈME SCROLL REVEAL — AGENCE DIGITALE (GPU ACCELERATED)
+   ========================================================= */
+
+/* État initial par défaut (avant apparition) */
+.reveal {
+  opacity: 0;
+  will-change: opacity, transform;
+  transition:
+    opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* 1. Hero Section : Fade In + légère translation verticale */
+.reveal-hero {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* 2 & 6. À propos & Formations : Fade Up */
+.reveal-fade-up {
+  transform: translateY(28px);
+}
+
+/* 3. Compétences : Stagger Reveal (apparition successive) */
+.reveal-stagger {
+  transform: translateY(22px);
+}
+
+/* 4. Expériences professionnelles : Slide Up progressif */
+.reveal-slide-up {
+  transform: translateY(36px);
+}
+
+/* 5. Portfolio & Projets : Stagger Reveal + léger Zoom In */
+.reveal-zoom-in {
+  transform: translateY(24px) scale(0.96);
+}
+
+/* 7. Section Contact : Fade In pur */
+.reveal-fade-in {
+  transform: none;
+  transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* État actif déclenché par IntersectionObserver */
+.reveal.is-visible,
+.reveal-hero.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Nettoyage mémoire GPU après animation */
+.reveal.is-visible {
+  will-change: auto;
+}
+
+/* Accessibilité : désactivation si l'utilisateur réduit les animations */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal-hero,
+  .reveal-fade-up,
+  .reveal-stagger,
+  .reveal-slide-up,
+  .reveal-zoom-in,
+  .reveal-fade-in {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
 }

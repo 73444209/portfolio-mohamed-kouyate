@@ -2,14 +2,14 @@ function Certifications() {
   return (
     <section id="certifications" className="certifications-section">
       <div className="section-container">
-        <div className="section-header">
+        <div className="section-header reveal reveal-fade-up">
           <span className="section-subtitle">Parcours académique & continu</span>
           <h2 className="section-title">Formation & Certifications</h2>
         </div>
 
         {/* NIVEAU 1 : DIPLÔMES UNIVERSITAIRES (2 colonnes larges) */}
         <div className="diplomas-grid">
-          <div className="diploma-card diploma-card-featured">
+          <div className="diploma-card diploma-card-featured reveal reveal-fade-up">
             <div className="diploma-badge">Diplôme Universitaire Supérieur</div>
             <h3>Master en Marketing & Communication</h3>
             <p className="diploma-school">ICHEC Brussels Management School · Bruxelles, Belgique</p>
@@ -19,7 +19,7 @@ function Certifications() {
             </p>
           </div>
 
-          <div className="diploma-card">
+          <div className="diploma-card reveal reveal-fade-up">
             <div className="diploma-badge">Diplôme Universitaire</div>
             <h3>Licence en Droit Public</h3>
             <p className="diploma-school">Enseignement Supérieur · Mali</p>
@@ -31,7 +31,7 @@ function Certifications() {
         </div>
 
         {/* NIVEAU 2 : CERTIFICATIONS PROFESSIONNELLES (6 cartes = 2 lignes de 3 parfaites) */}
-        <div className="certifications-grid">
+        <div className="certifications-grid reveal reveal-fade-up">
           <div className="cert-card">
             <span className="cert-issuer">Alison Academy</span>
             <h4>Diplôme en Gestion Marketing</h4>

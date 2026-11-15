@@ -4,25 +4,25 @@ function Hero() {
       <div className="hero-container">
         {/* COLONNE GAUCHE : TEXTE & APPELS À L'ACTION */}
         <div className="hero-content">
-          <span className="hero-badge">
+          <span className="hero-badge reveal-hero">
             • MARKETING & COMMUNICATION · BAMAKO, MALI
           </span>
 
-          <h1 className="hero-title">
+          <h1 className="hero-title reveal-hero">
             Mohamed Kouyaté
           </h1>
 
-          <h2 className="hero-subtitle">
+          <h2 className="hero-subtitle reveal-hero">
             Responsable Marketing et Communication
           </h2>
 
-          <p className="hero-description">
+          <p className="hero-description reveal-hero">
             Stratégie marketing B2B, communication d’entreprise et développement
             d’opportunités d’affaires pour propulser la croissance des
             organisations.
           </p>
 
-          <div className="hero-buttons">
+          <div className="hero-buttons reveal-hero">
             <a href="#contact" className="btn-primary">
               Me contacter
             </a>
@@ -39,7 +39,7 @@ function Hero() {
         </div>
 
         {/* COLONNE DROITE : PORTRAIT PROFESSIONNEL */}
-        <div className="hero-image-wrapper">
+        <div className="hero-image-wrapper reveal-hero">
           <div className="hero-image-backdrop"></div>
           <img
             src="/image/mohamed-kouyate.jpg"

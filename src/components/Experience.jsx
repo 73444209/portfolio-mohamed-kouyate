@@ -2,14 +2,14 @@ function Experience() {
   return (
     <section id="experiences" className="experience-section">
       <div className="section-container">
-        <div className="section-header">
+        <div className="section-header reveal reveal-fade-up">
           <span className="section-subtitle">Parcours professionnel</span>
           <h2 className="section-title">Expériences professionnelles</h2>
         </div>
 
         <div className="timeline-container">
           {/* EXPÉRIENCE 1 : GLOB ACCESS */}
-          <div className="timeline-item">
+          <div className="timeline-item reveal reveal-slide-up">
             <div className="timeline-dot timeline-dot-active"></div>
             <div className="timeline-card timeline-card-active">
               <div className="timeline-header">
@@ -40,7 +40,7 @@ function Experience() {
           </div>
 
           {/* EXPÉRIENCE 2 : Consultant Digital Selling */}
-          <div className="timeline-item">
+          <div className="timeline-item reveal reveal-slide-up">
             <div className="timeline-dot"></div>
             <div className="timeline-card">
               <div className="timeline-header">
@@ -70,7 +70,7 @@ function Experience() {
           </div>
 
           {/* EXPÉRIENCE 3 : SODIMA SARL */}
-          <div className="timeline-item">
+          <div className="timeline-item reveal reveal-slide-up">
             <div className="timeline-dot"></div>
             <div className="timeline-card">
               <div className="timeline-header">

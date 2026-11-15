@@ -2,7 +2,7 @@ function Contact() {
   return (
     <footer id="contact" className="contact-section">
       <div className="section-container">
-        <div className="section-header">
+        <div className="section-header reveal reveal-fade-in">
           <span className="section-subtitle contact-subtitle">
             Échangeons sur vos projets
           </span>
@@ -11,7 +11,7 @@ function Contact() {
 
         <div className="contact-grid">
           {/* COLONNE GAUCHE : Coordonnées professionnelles */}
-          <div className="contact-info">
+          <div className="contact-info reveal reveal-fade-in">
             <h3>Coordonnées professionnelles</h3>
             <p className="contact-intro">
               Disponible pour échanger sur vos enjeux de stratégie marketing B2B,
@@ -54,7 +54,7 @@ function Contact() {
 
           {/* COLONNE DROITE : Formulaire contrasté */}
           <form
-            className="contact-form-card"
+            className="contact-form-card reveal reveal-fade-in"
             action="https://formspree.io/f/votre-code-ici"
             method="POST"
           >

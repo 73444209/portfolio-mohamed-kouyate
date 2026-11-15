@@ -2,14 +2,14 @@ function Skills() {
   return (
     <section id="competences" className="skills-section">
       <div className="section-container">
-        <div className="section-header">
+        <div className="section-header reveal reveal-fade-up">
           <span className="section-subtitle">Domaines d’expertise</span>
           <h2 className="section-title">Compétences clés</h2>
         </div>
 
-        <div className="skills-grid">
+        <div className="skills-grid" data-stagger-group>
           {/* PÔLE 1 : Stratégie Marketing & B2B */}
-          <div className="skill-card">
+          <div className="skill-card reveal reveal-stagger">
             <span className="skill-pole">Pôle 01 · Stratégie</span>
             <h3>Stratégie Marketing & B2B</h3>
             <ul className="skill-list">
@@ -21,7 +21,7 @@ function Skills() {
           </div>
 
           {/* PÔLE 2 : CRM, Analyse & Outils Digitaux */}
-          <div className="skill-card skill-card-accent">
+          <div className="skill-card skill-card-accent reveal reveal-stagger">
             <span className="skill-pole">Pôle 02 · Data & Outils</span>
             <h3>CRM, Analyse & Outils Digitaux</h3>
             <ul className="skill-list">
@@ -33,7 +33,7 @@ function Skills() {
           </div>
 
           {/* PÔLE 3 : Communication & Production Visuelle */}
-          <div className="skill-card">
+          <div className="skill-card reveal reveal-stagger">
             <span className="skill-pole">Pôle 03 · Création</span>
             <h3>Communication & Production Visuelle</h3>
             <ul className="skill-list">

@@ -2,14 +2,14 @@ function Projects() {
   return (
     <section id="projets" className="projects-section">
       <div className="section-container">
-        <div className="section-header">
+        <div className="section-header reveal reveal-fade-up">
           <span className="section-subtitle">Réalisations professionnelles</span>
           <h2 className="section-title">Projets & Campagnes B2B</h2>
         </div>
 
-        <div className="projects-grid">
+        <div className="projects-grid" data-stagger-group>
           {/* PROJET 1 : Stratégie B2B & Campagnes Lenovo */}
-          <div className="project-case-card">
+          <div className="project-case-card reveal reveal-zoom-in">
             <div className="project-case-top">
               <span className="project-number">01</span>
               <span className="project-client">Glob Access · Bamako</span>
@@ -32,7 +32,7 @@ function Projects() {
           </div>
 
           {/* PROJET 2 : Intégration CRM & Automatisation */}
-          <div className="project-case-card project-case-accent">
+          <div className="project-case-card project-case-accent reveal reveal-zoom-in">
             <div className="project-case-top">
               <span className="project-number">02</span>
               <span className="project-client">HubSpot & Mailchimp</span>
@@ -55,7 +55,7 @@ function Projects() {
           </div>
 
           {/* PROJET 3 : Digital Selling & Sales Enablement */}
-          <div className="project-case-card">
+          <div className="project-case-card reveal reveal-zoom-in">
             <div className="project-case-top">
               <span className="project-number">03</span>
               <span className="project-client">Prospection & Social Selling</span>

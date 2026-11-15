@@ -2,14 +2,14 @@ function About() {
   return (
     <section id="a-propos" className="about-section">
       <div className="section-container">
-        <div className="section-header">
+        <div className="section-header reveal reveal-fade-up">
           <span className="section-subtitle">Présentation</span>
           <h2 className="section-title">À propos de mon approche</h2>
         </div>
 
         <div className="about-grid">
           {/* COLONNE GAUCHE : Vision & Piliers */}
-          <div className="about-text-column">
+          <div className="about-text-column reveal reveal-fade-up">
             <p className="about-lead">
               Responsable Marketing et Communication basé à Bamako, j’accompagne
               la croissance et le rayonnement des organisations en alignant la
@@ -51,7 +51,7 @@ function About() {
           </div>
 
           {/* COLONNE DROITE : Carte de synthèse Executive */}
-          <div className="about-card-column">
+          <div className="about-card-column reveal reveal-fade-up">
             <div className="executive-card">
               <h3>Synthèse du profil</h3>
               <div className="executive-stats">
