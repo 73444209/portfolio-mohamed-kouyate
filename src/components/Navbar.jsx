@@ -31,7 +31,7 @@ function Navbar() {
           </a>
           <a
             href="/image/CV-Mohamed-Kouyate.pdf"
-            download="CV-Mohamed-Kouyate.pdf"
+            download="C:\Users\Lenovo\Desktop\projets-mohamed\portfolio-mohamed-kouyate\public\image\CV – Mohamed Kouyaté (version visuelle) (1).pdf"
             className="btn-cv"
           >
             Télécharger mon CV
