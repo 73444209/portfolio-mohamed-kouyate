@@ -31,7 +31,7 @@ function Navbar() {
           </a>
           <a
             href="/image/CV-Mohamed-Kouyate.pdf"
-            download="CV-Mohamed-Kouyate.pdf"
+            download="CV-Mohamed-Kouyaté.pdf"
             className="btn-cv"
           >
             Télécharger mon CV
