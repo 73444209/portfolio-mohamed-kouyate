@@ -10,7 +10,7 @@ function Navbar() {
         {/* Menu vers vos 8 sections au centre */}
         <nav className="navbar-menu">
           <a href="#accueil">Accueil</a>
-          <a href="#apropos">À propos</a>
+          <a href="#a-propos">À propos</a>
           <a href="#competences">Compétences</a>
           <a href="#experiences">Expériences</a>
           <a href="#projets">Projets</a>
@@ -31,7 +31,7 @@ function Navbar() {
           </a>
           <a
             href="/image/CV-Mohamed-Kouyate.pdf"
-            download="C:\Users\Lenovo\Desktop\projets-mohamed\portfolio-mohamed-kouyate\public\image\CV – Mohamed Kouyaté (version visuelle) (1).pdf"
+            download="CV-Mohamed-Kouyate.pdf"
             className="btn-cv"
           >
             Télécharger mon CV
