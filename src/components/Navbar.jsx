@@ -30,12 +30,16 @@ function Navbar() {
             LinkedIn
           </a>
           <a
+           
             href="/image/CV-Mohamed-Kouyate.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             download="CV-Mohamed-Kouyaté.pdf"
             className="btn-cv"
           >
             Télécharger mon CV
           </a>
+
         </div>
       </div>
     </header>
